@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lett.r</title>
+    <link rel = "icon" href = "logoo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_2.css">
+</head>
+
+<body class="body_html">
+    <div class="loader">
+        <img src="logoo.png" alt="Loading..." />
+    </div>
+        <nav class="navbar fixed-top sticky-top navbar-expand-sm">
+            <a class="navbar-brand" href="index.html">
+              <img
+              src="logoo.png"
+              alt=""/>
+            </a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-icons"><span class="material-icons">list</span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="search navbar-nav ml-auto mr-auto">
+                    <li class="nav-item">
+                      <div class="justify-content-sm-center">
+                        <form class="form-inline my-2 my-md-0 my-md-0">
+                          <input class="input" type="text" placeholder="@username" aria-label="Search">    
+                          <button class="button" type="submit"><span class="material-icons" style="color: grey; font-size: 20pt;">search</span></button>         
+                        </form>
+                      </div>
+                    </li>
+                </ul>
+            
+      
+                <ul class=" left_navbar_side navbar-nav"> 
+                    <li class="nav-item"><a class="tool nav-link" href="index.html">
+                      <span class="material-icons">home</span></a>
+                    </li>  
+                    <li class="nav-item"><a class="tool nav-link" href="explore_beneran.html">
+                      <span class="material-icons">explore</span></a>
+                    </li>
+                    <li class="nav-item"><a class="tool nav-link" href="message_box.html">
+                      <span class="material-icons">mail</span></a>
+                    </li>
+                    <li class="account_dropdown nav-item dropdown">
+                      <a class="tool nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="material-icons">account_circle</span></a></a>
+                      <div class="account_menu dropdown-menu dropdown-menu-right" style="background-color:rgb(46, 49, 49);">
+                        <a class="dropdown-item" href="profile_page.html">
+                          <img
+                            src="profile.png"
+                            alt=""
+                          />Account Center</a>
+                        <a class="dropdown-item" href="Notif.html">Notification Center</a>
+                        <a class="dropdown-item" href="setting.html">Settings</a>
+                        <a class="dropdown-item" href="login_beneran.html">Log Out</a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      </nav>
+
+    <div class="container-xxl">
+        <div class="leftside">
+            <div class="Friend_bar_Option">
+                <span class="material-icons"> group </span>
+                <h2>Friend List</h2>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://assets.stickpng.com/thumbs/589878dfcba9841eabab618c.png"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">miffy</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://lh3.googleusercontent.com/jXrZhBZ7YdVQor8jxYx7mamf9QfbNToi9LSwICSOKxu-DKz1qRRrSme2UxeCuMR8cWuE_iZFFkMcH5GQddZ9tcFuWmB7JryPNj-Kw3hjHRzLlUo=w960-rj-nu-e365"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">nwjns</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://64.media.tumblr.com/8b996666f69015fc31704526a6509571/c2f6cf81c9f9d20f-54/s400x600/050bce299a0ff2f1f005602510d59519341edcbe.jpg"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">lain</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://img.wattpad.com/9847a062c77c2542b28865cfc7560190f0714707/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7075494a6d504632795a523477673d3d2d3931353637373439322e313631656662646334386165353137313239383631393439333935352e6a7067"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">aqua</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://static.wikia.nocookie.net/valorant/images/3/35/Jett_icon.png/revision/latest?cb=20220316150455&path-prefix=id"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">jett</a>
+                <p>online</p>
+            </div>
+            </div>   
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://static.wikia.nocookie.net/valorant/images/7/74/Sage_icon.png/revision/latest?cb=20220316150523&path-prefix=id"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">sage</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://i.pinimg.com/736x/43/4d/41/434d414872d951b127e8bee83de9e860.jpg"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">yelan</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://styles.redditmedia.com/t5_3o99xm/styles/communityIcon_nyux4p13ym881.png"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">shenhe</a>
+                <p>online</p>
+            </div>
+            </div>
+            <div class="content">
+              <div class="friend">
+                <img class="acc_img"
+                    src="https://64.media.tumblr.com/b9718f77238f3b95e867944fc73fa0d1/0fd19daa73201d06-54/s1280x1920/23d400de210e20f2058c37d8b791fd17bc9fd280.jpg"
+                    alt="gambar" width="50px" height="50px" />
+            </div>
+            <div class="friend-username">
+                <a href="">ada wong</a>
+                <p>online</p>
+            </div>
+            </div>
+            
+        </div>
+        <main class="post_main">
+            <div class="feed">
+      
+                <div class="uploads">
+                  <form>
+                    <div class="uploads_input">
+                      <img
+                        src="profile.png"
+                        alt=""
+                      />
+                      <input type="text" placeholder="what are you gonna write?" style="color:#EBE8DE" />
+                      <button class="upload-button">post!</button>
+                    </div>
+                  </form>
+                </div>
+                <!-- tweetbox ends -->
+          
+                <!-- post starts -->
+                <div class="post">
+                  <div class="the_post_content">
+                    <div class="profile-picture">
+                      <img
+                        src="https://play-lh.googleusercontent.com/-L481Q6qjcwYqe9bhbCz8UQHjBOcePLfirV5P24Bun1fADkKR9tPPMYm45MEpdLAdwY=w240-h480-rw"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">localfrog</a>
+                      </h3>
+                    </div>
+            
+                    <div class="post_body">
+                      <img
+                        src="https://gumlet.assettype.com/afkgaming%2F2021-08%2F79649079-d0e7-4acd-853b-6a2b92797da3%2Fcopium_png.png?format=auto"
+                        alt=""
+                      />
+                      <div class="utility-icon">
+                        <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                        <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                        <button class="like_button"><span class="material-icons">send_round</span></button>
+                      </div>
+                      <div class="desc">
+                        <p>
+                          damn
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- post ends -->
+
+                <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://play-lh.googleusercontent.com/-L481Q6qjcwYqe9bhbCz8UQHjBOcePLfirV5P24Bun1fADkKR9tPPMYm45MEpdLAdwY=w240-h480-rw"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">localfrog</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://static.planetminecraft.com/files/image/minecraft/server/2020/105/13499638-peeposhy_l.webp"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            peeposhy
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://play-lh.googleusercontent.com/-L481Q6qjcwYqe9bhbCz8UQHjBOcePLfirV5P24Bun1fADkKR9tPPMYm45MEpdLAdwY=w240-h480-rw"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">localfrog</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://cdn.frankerfacez.com/emoticon/577131/4"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            yeay
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://townsquare.media/site/675/files/2019/08/67661039_2600194060216546_4230772670389551104_n-e1565265186272.jpg?w=980&q=75"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">miauw.69</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://popcat.click/twitter-card.jpg"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            pop
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://townsquare.media/site/675/files/2019/08/67661039_2600194060216546_4230772670389551104_n-e1565265186272.jpg?w=980&q=75"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">miauw.69</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://play-lh.googleusercontent.com/ID5wHCs0FsgS018pX0e0My5z3u4cBG7dAYAr2owB9gwylWaNZTJ0pWAKl9It7ys5iEM"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            omnomnom
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://ih1.redbubble.net/image.1012639833.7285/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">heybbghmu</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://static.vecteezy.com/system/resources/previews/009/314/827/original/wooden-door-vector-illustration-isolated-free-png.png"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button" id="like"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            knock knock
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://ih1.redbubble.net/image.1012639833.7285/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">heybbghmu</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://static.wikia.nocookie.net/youtv/images/4/47/Joe-Goldberg-1.png/revision/latest?cb=20200730050808"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            joe
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://ih1.redbubble.net/image.1012639833.7285/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">heybbghmu/a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://i.kym-cdn.com/photos/images/facebook/002/355/520/773.png"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            JOE MAMA!! AHAHAHAHHAHAHAHAH
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+
+                  <!-- post starts -->
+                <div class="post">
+                    <div class="the_post_content">
+                      <div class="profile-picture">
+                        <img
+                          src="https://ih1.redbubble.net/image.1012639833.7285/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
+                          alt=""
+                        />
+                        <h3>
+                          <a href="#">heybbghmu</a>
+                        </h3>
+                      </div>
+              
+                      <div class="post_body">
+                        <img
+                          src="https://i.pinimg.com/originals/7f/3c/b7/7f3cb7de0b347cb862dffb6aa7d1adca.jpg"
+                          alt=""
+                        />
+                        <div class="utility-icon">
+                          <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                          <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                          <button class="like_button"><span class="material-icons">send_round</span></button>
+                        </div>
+                        <div class="desc">
+                          <p>
+                            i need help.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post ends -->
+              </div>
+        </main>
+        
+        <!--FAB CONTAINER-->
+        <div class="fab-container">
+            <div class="fab fab-icon-holder">
+              <span class="material-icons">home</span>
+            </div>
+
+            <ul class="fab-options">
+              <li>
+                <span class="fab-label">Home</span>
+                <div class="fab-icon-holder">
+                  <a href="index.html"><span class="material-icons">home</span></a>
+                </div>
+              </li>
+              <li>
+                <span class="fab-label">Upload</span>
+                <div class="fab-icon-holder">
+                  <a href="#"><span class="material-icons">add</span></a>
+                </div>
+              </li>
+              <li>
+                <span class="fab-label">Massage</span>
+                <div class="fab-icon-holder">
+                  <a href="message_box.html"><span class="material-icons">chat</span></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--FAB CONTAINER-->
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close"></span>
+              <!--modal-post-start-->
+              <div class="modal-post">
+              <div class="post_modal" style="width: fit-content; margin-left: 0%; height: 97%;">
+                <div class="the_post_content">
+                  <div class="profile-picture">
+                    <img
+                      src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                      alt=""
+                    />
+                    <h3>
+                      <a href="#">test_someone</a>
+                    </h3>
+                  </div>
+          
+                  <div class="post_body">
+                    <img
+                      src="https://gumlet.assettype.com/afkgaming%2F2021-08%2F79649079-d0e7-4acd-853b-6a2b92797da3%2Fcopium_png.png?format=auto"
+                      alt=""
+                    />
+                    <div class="utility-icon">
+                      <button class="like_button"><span class="material-icons">favorite_border</span></button>
+                      <button class="like_button" id="comment_button"><span class="material-icons">maps_ugc_outline</span></button>
+                      <button class="like_button"><span class="material-icons">send_round</span></button>
+                    </div>
+                    <div class="desc">
+                      <p>
+                        damn
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="apalaj" style="color: aliceblue;">
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>  
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>  
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>  
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>  
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>  
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>  
+                <div class="thecomment">
+                  <div class="comment_content">
+                    <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                      />
+                      <h3>
+                        <a href="#">test_someone</a>
+                      </h3>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a>THIS IS COMMENT SAMPLE</a>
+                </div>     
+              </div>
+            </div>
+              <!--modal-post-end-->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script>feather.replace()</script>
+        <script>
+          // Get the modal
+          var modal = document.getElementById("myModal");
+          
+          // Get the button that opens the modal
+          var btn = document.getElementById("comment_button");
+          
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          for(var i = 0 ; i < 1000 ; i++) {
+            btn.onclick = function() {
+            modal.style.display = "block";
+            };
+          }
+          
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+          
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+          </script>
+
+          <script>
+            window.addEventListener("load", function () {
+              const loader = document.querySelector(".loader");
+              loader.className += " hidden"; // class "loader hidden"
+            });
+          </script> 
+</body>
+
+</html>

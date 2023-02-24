@@ -1,0 +1,403 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="./style_explore.css">
+        <title>explore-lett.r</title>
+        <link rel = "icon" href = 
+        "logoo.png" 
+        type = "image/x-icon">
+    </head>
+    <body class="bodyhtml">
+            <div class="loader">
+                <img src="logoo.png" alt="Loading..." />
+            </div>
+            <nav class="navbar fixed-top sticky-top navbar-expand-sm">
+                <a class="navbar-brand" href="index.html">
+                    <b><img
+                      src="logoo.png"
+                      alt=""/></b>
+                </a>
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="material-icons"><span class="material-icons">list</span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="search navbar-nav ml-auto mr-auto">
+                        <li class="nav-item">
+                          <div class="justify-content-sm-center">
+                            <form class="form-inline my-2 my-md-0 my-md-0">
+                              <input class="input" type="text" placeholder="@username" aria-label="Search">    
+                              <button class="button" type="submit"><span class="material-icons" style="color: grey; font-size: 20pt;">search</span></button>         
+                            </form>
+                          </div>
+                        </li>
+                    </ul>
+                
+          
+                    <ul class=" left_navbar_side navbar-nav"> 
+                        <li class="nav-item"><a class="tool nav-link" href="index.html">
+                          <span class="material-icons">home</span></a>
+                        </li>  
+                        <li class="nav-item"><a class="tool nav-link" href="explore_beneran.html">
+                          <span class="material-icons">explore</span></a>
+                        </li>
+                        <li class="nav-item"><a class="tool nav-link" href="message_box.html">
+                          <span class="material-icons">mail</span></a>
+                        </li>
+                        <li class="account_dropdown nav-item dropdown">
+                          <a class="tool nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="material-icons">account_circle</span></a></a>
+                          <div class="account_menu dropdown-menu dropdown-menu-right" style="background-color:rgb(46, 49, 49);">
+                            <a class="dropdown-item" href="profile_page.html">
+                              <img
+                                src="profile.png"
+                                alt=""
+                              />Account Center</a>
+                            <a class="dropdown-item" href="#">Notification Center</a>
+                            <a class="dropdown-item" href="setting.html">Settings</a>
+                            <a class="dropdown-item" href="login_beneran.html">Log Out</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+          </nav>
+          
+        <div class="container mt-1 p-2" style="display: flex;">
+            <button class="btn active perpanel">
+                all
+            </button>
+            <button class="btn perpanel ">
+                Lifestyle
+            </button>
+            <button class="btn perpanel">
+                Entertainment
+            </button>
+            <button class="btn perpanel">
+                Manga
+            </button>
+            <button class="btn perpanel">
+                Food
+            </button>
+            <button class="btn perpanel">
+                Books
+            </button>
+            <button class="btn perpanel">
+                Fashion
+            </button>
+            <button class="btn perpanel">
+                Memes
+            </button>
+            <button class="btn perpanel">
+                Places
+            </button>
+            <button class="btn perpanel">
+                Animals
+            </button>
+        </div>
+        
+        <!--=========================================-->
+
+        <div class="box">
+            <div class="item"><a href="#"><img id="myimg" src="https://imgflip.com/s/meme/Cute-Cat.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://s3.amazonaws.com/heights-photos/wp-content/uploads/2021/10/31120254/lana-del-rey-blue-banister%402000x1270.jpeg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://i.pinimg.com/originals/8b/1a/11/8b1a11422c7ab8c2ed3c0c98e2a21a9e.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://cdn1-production-images-kly.akamaized.net/olgo41hJX-40bUI5zF_quyhzBBs=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/921909/original/064104600_1436299212-Cover.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="http://sudachirecipes.com/wp-content/uploads/2022/08/yakiniku-donburi-thumbnail.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://static.wikia.nocookie.net/845e712a-f29d-4507-adba-fdd03ea6f7d2/scale-to-width/755" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://media.tenor.com/--3RJN4uY1QAAAAM/cat-screaming-cat.gif" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://ih1.redbubble.net/image.2546091345.2871/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://i.pinimg.com/originals/68/ad/b7/68adb7545383cc49e26a92f3c991aa7b.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://wallpaperaccess.com/full/1382642.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://cdn11.bigcommerce.com/s-c7qlm8a06j/images/stencil/1280x1280/products/2616/25575/fairycore-clothes-fairycore-casual-jacket_8__70634.1648359153.jpg?c=1?imbypass=on" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT52Ziku_9iH86YHaVhkqFHFOHjRRjam9zqg&usqp=CAU" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://media.tenor.com/Pb1TfZhr-OQAAAAM/spy-x-family-anya.gif" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://external-preview.redd.it/ZpuqMwiz56Uqg986WU39kX3-yca2GUlBmKy4iuVI7Lo.png?format=pjpg&auto=webp&s=742f2f671b3ea867d51c9b39fb2591f0ad4a970e" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://media.tenor.com/0EQGzBIxlEcAAAAC/yelan-genshin.gif" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://i.scdn.co/image/ab67616d0000b27360ba1d6104d0475c7555a6b2" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://cdn.shopify.com/s/files/1/0451/7606/2114/products/image_e2ac14cb-8bc4-4854-9fd5-20fa3ad5935d_1100x.jpg?v=1642676527" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://reluctantentertainer.com/wp-content/uploads/2022/12/rosemary-in-sangria.jpeg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://cdn.motor1.com/images/mgl/P3Gkq4/s1/1958-bmw-507-series-ii-for-sale.webp" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://i.pinimg.com/736x/c2/b9/6c/c2b96c6a18c2b951c5150f31ed818d64.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://www.allkpop.com/upload/2022/07/content/221800/1658527255-image.png" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://i.scdn.co/image/ab67616d0000b2739d28fd01859073a3ae6ea209" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://w0.peakpx.com/wallpaper/95/667/HD-wallpaper-kpop-locks-newjeans-thumbnail.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://popcat.click/twitter-card.jpg" alt=""></a></div>
+            <div class="item"><a href="#"><img id="myimg" src="https://play-lh.googleusercontent.com/ID5wHCs0FsgS018pX0e0My5z3u4cBG7dAYAr2owB9gwylWaNZTJ0pWAKl9It7ys5iEM" alt=""></a></div>
+        </div>
+
+        <!--FAB CONTAINER-->
+        <div class="fab-container">
+            <div class="fab fab-icon-holder">
+              <span class="material-icons">home</span>
+            </div>
+
+            <ul class="fab-options">
+              <li>
+                <span class="fab-label">Home</span>
+                <div class="fab-icon-holder">
+                  <a href="index.html"><span class="material-icons">home</span></a>
+                </div>
+              </li>
+              <li>
+                <span class="fab-label">Upload</span>
+                <div class="fab-icon-holder">
+                  <a href="#"><span class="material-icons">add</span></a>
+                </div>
+              </li>
+              <li>
+                <span class="fab-label">Massage</span>
+                <div class="fab-icon-holder">
+                  <a href="message_box.html"><span class="material-icons">chat</span></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--FAB CONTAINER-->
+                        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script>
+            var header = document.getElementsByClassName("container ")
+            var button = document.getElementsByClassName("btn")
+            for (var i = 0 ; i < button.length ; i++) {
+                button[i].addEventListener("click",function() {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+                }
+        </script>
+        <script>
+            var item = document.getElementsByClassName("item");
+            var image = document.getElementById("myimg");
+            img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gPo_0cSk9Lrtl5x4itVpWj7LclMU_9xnww&usqp=CAU";
+            console.log(item.length);
+            for (var i = 1; i < item.length; i = i + 15) {
+                image[i] = img;
+            }
+        </script>
+        <script>
+            window.addEventListener("load", function () {
+              const loader = document.querySelector(".loader");
+              loader.className += " hidden"; // class "loader hidden"
+            });
+          </script> 
+    </body>
+</html>
